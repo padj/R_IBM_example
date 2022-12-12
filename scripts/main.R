@@ -1,6 +1,6 @@
 
 
-source('functions/define_classes.R')
+source('functions/define_classes_RefClass.R')
 
 
 #create patient population

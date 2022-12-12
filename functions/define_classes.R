@@ -1,7 +1,7 @@
 
 ## Define the class
 patient <- setRefClass(
-  "paitent",
+  "patient",
   
   fields = list(
     ID = 'numeric',

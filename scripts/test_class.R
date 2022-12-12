@@ -9,7 +9,7 @@ test_class <- setRefClass(
   ),
   methods = list(
     
-    initialize = function(x = NULL, 
+    initialize = function(x, 
                           y = 1:10, 
                           z = letters){
       "This method is called when you create an instance of the class."
@@ -37,7 +37,7 @@ test_class <- setRefClass(
 
 
 ## Create the class
-obj1 <- test_class$new()
+obj1 <- test_class$new(x=2)
 
 obj1$y
 obj1$doubleY()

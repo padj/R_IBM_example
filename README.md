@@ -6,5 +6,6 @@ Options:
  - ReferenceClasses 
  - S3
  - S4
+ - R6  
  - R7
 

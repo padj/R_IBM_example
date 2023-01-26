@@ -13,3 +13,4 @@ patient <- new_class(name = "patient",
                      )
                      )
 
+# methods belong to functions not classes, which feels weird. 

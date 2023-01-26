@@ -11,3 +11,6 @@ for (i in 1:population_size){
   population <- c(population, patient$new(ID = i))
 }
 
+for (patient in population){
+  print(patient$age)
+}
